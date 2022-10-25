@@ -22,7 +22,7 @@ Make sure to run as Administrator!
 $ python blackHoler.py (Hostname-to-be-Blackholed)
 ```
 
-## OR
+### OR
 
 
 ```bash
