@@ -12,25 +12,22 @@ https://github.com/crossnathan
 ### About blackholer.
 
 Blackholer helps reduce adds and clutter by putting hostnames into a blackhole.
-When a hostname is causing problems it can be added and removed.
+When a hostname is causing problems it can be added or removed.
 Hostnames can be changed as well.
 
-## Install it from PyPI
+## Usage 
+Make sure to run as Administrator!
 
 ```bash
-pip install git+https://github.com/crossnathan/blackholer
+$ python blackHoler.py (Hostname-to-be-Blackholed)
 ```
 
-## Usage
+## OR
 
-```py
-from blackholer import blackHoler
-
-blackHoler()
-```
 
 ```bash
-$ python blackHoler "Hostname to be Blackholed"
+$ python blackHoler.py
+$ Enter a Hostname to blacklist: (Hostname-to-be-Blackholed)
 ```
 
 ## Development
